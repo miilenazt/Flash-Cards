@@ -1,0 +1,7 @@
+Styles.css
+html :lang= "pt-br"
+<header> → class="cabecalho"
+<article> → class="cartao"
+<div> (dentro de <article>) → class="cartao-interno"
+<div> (dentro de cartao-interno) → class="cartao-frente" (e também cartao-verso, se aplicável)
+<img> → class="cartao-imagem"
