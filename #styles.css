@@ -71,7 +71,12 @@ h1 {
 .cartao-verso { 
   position: absolute; 
   border-radius: 12px; 
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  .cartao-imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a foto se ajustar sem distorcer */
+    border-radius: 12px; /* Deixa as bordas da imagem arredondadas junto com o cartão */
+}
 } 
 .cartao-interno { 
   position: relative; 
